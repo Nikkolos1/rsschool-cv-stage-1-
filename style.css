@@ -1,0 +1,67 @@
+html{
+    background-image: url("https://github.com/Nikkolos1/rsschool-cv/blob/rsschool-cv-html/16.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial,sans-serif;
+    --primary-color: #074ca7;
+    --secondary-color: #052e07;
+    --background-color: #ff6b08;
+   }
+ {
+    color: var(--secondary-color);
+}
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 1.5em;
+}
+h2 {
+    color: var(--secondary-color);
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+h3 {
+    color: var(--secondary-color);
+}
+a {
+    color: var(--primary-color);
+}
+section {
+    margin-bottom: 3em;
+    position: relative;
+}
+.cv {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.contacts {
+    margin-bottom: 2em;
+}
+.contact {
+    display: flex;
+}
+.contact__type {
+    min-width: 90px;
+}
+.experience {
+    display: flex;
+    margin-bottom: 2em;
+}
+.experience__date {
+          min-width: 185px;
+          margin-bottom: 1em;
+}
+.experience__name {
+    font-weight: bold;
+}
+ @media {
+     (max-width: 575px) 
+}
+.experience {
+ display: block;
+    }
